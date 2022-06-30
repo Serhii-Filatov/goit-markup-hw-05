@@ -273,6 +273,26 @@ p {
   background-position: center;
  
 }
+
+/* * Модальное окно * */
+/* .backdrop .is-hidden{
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
 /* *==================================================* */
 
 /* * What are we doing section * */
@@ -340,6 +360,28 @@ p {
   font-weight: 700;
   line-height: 1.2;
 }
+.section-txt-position {
+  display: flex;
+  width: 370px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  bottom: 0;
+  
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  background: rgba(47, 48, 58, 0.8);
+}
+.position-txt{
+  position:relative;
+}
+
 
 /* * Section images * */
 
