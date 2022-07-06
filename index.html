@@ -34,7 +34,7 @@
 
           <ul class="site-nav list">
             <li class="site-nav-item">
-              <a class="header-link link current" href="./index.html">Студия</a>
+              <a class="header-link link current active-page" href="./index.html">Студия</a>
             </li>
             <li class="site-nav-item">
               <a class="header-link link" href="./portfolio.html">Портфолио</a>
@@ -49,17 +49,18 @@
           <li class="site-nav-item">
             <a class="header-contacts-link link" href="mailto:info@devstudio.com">
               <span class="icon"><svg class="contacts-icon" width="16" height="12">
-                <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
-              >info@devstudio.com</a
-            ></span>
+                <use href="./images/symbol-defs.svg#icon-envelope"></use></svg>info@devstudio.com
+              </span>
+            </a>
           </li>
 
           <li class="site-nav-item">
             <a class="header-contacts-link link" href="tel:+380961111111">
               <span class="icon"><svg class="contacts-icon" width="10" height="16">
-                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
-              >+38 096 111 11 11</a
-            ></span>
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                  </svg>+38 096 111 11 11
+              </span>
+            </a>
           </li>
         </ul>
       </div>
@@ -75,15 +76,6 @@
           </h1>
           <!-- Hero button -->
           <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
-
-          <!-- TODO Модальное окно -->
-          <!-- <div class="backdrop is-hidden" data-modal-close>
-            <div class="modal" data-modal>
-              
-              <button data-modal-close>Закрыть</button>
-            </div>
-
-          </div> -->
         </div>
       </section>
 
@@ -613,6 +605,16 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+          <button class="modal-close-btn" type="button" data-modal-close>
+              <svg width="11" height="11">
+                  <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg>
+          </button>
+          
+      </div>
+  </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
